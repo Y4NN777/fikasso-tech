@@ -36,7 +36,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-main mb-1">Encrypted Comms</h4>
-                      <p className="text-muted">contact@fikassotech.com</p>
+                      <p className="text-muted">cedric@fikassotech.com</p>
                       <p className="text-xs text-primary mt-1 font-mono">PGP Key available upon request</p>
                     </div>
                   </div>
