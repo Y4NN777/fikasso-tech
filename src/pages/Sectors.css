@@ -1,0 +1,37 @@
+.sectors-page .page-header {
+  padding-bottom: 5rem;
+  border-bottom: 1px solid var(--color-bg-surface-alt);
+}
+
+.bg-surface-alt {
+  background-color: var(--color-bg-surface-alt);
+}
+
+.grid {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.gap-8 { gap: 2rem; }
+.mb-12 { margin-bottom: 3rem; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.font-bold { font-weight: 700; }
+.border { border-width: 1px; border-style: solid; }
+.border-surface-alt { border-color: var(--color-bg-surface-alt); }
+.list-disc { list-style-type: disc; }
+.ml-5 { margin-left: 1.25rem; }
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}

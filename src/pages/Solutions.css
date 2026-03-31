@@ -1,0 +1,111 @@
+.page-header {
+  padding: 6rem 0 4rem;
+  padding-top: 10rem; /* Give room for navbar */
+  border-bottom: 4px solid var(--color-accent);
+}
+
+.solution-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .solution-detail-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+  
+  .solution-detail-grid.reverse .solution-info {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .solution-detail-grid.reverse .solution-visual {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.solution-visual {
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.font-semibold { font-weight: 600; }
+.tracking-wide { letter-spacing: 0.05em; }
+.uppercase { text-transform: uppercase; }
+.block { display: block; }
+.text-sm { font-size: 0.875rem; }
+.text-xs { font-size: 0.75rem; }
+.font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rounded-lg { border-radius: var(--radius-lg); }
+.rounded-md { border-radius: var(--radius-md); }
+.rounded-full { border-radius: 9999px; }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+.border-b { border-bottom: 1px solid var(--color-bg-surface-alt); }
+.pb-4 { padding-bottom: 1rem; }
+.p-6 { padding: 1.5rem; }
+.p-8 { padding: 2rem; }
+.w-3\/4 { width: 75%; }
+.w-1\/2 { width: 50%; }
+.h-full { height: 100%; }
+.h-2 { height: 0.5rem; }
+.flex-1 { flex: 1; }
+.border-t { border-top: 1px solid var(--color-bg-surface-alt); }
+.inline-block { display: inline-block; }
+.mt-12 { margin-top: 3rem; }
+
+/* Custom mocks */
+.pcontrol-mock {
+  position: relative;
+}
+
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: -20%;
+  right: -20%;
+  height: 2px;
+  background-color: var(--color-accent);
+  box-shadow: 0 0 10px 2px rgba(184, 134, 11, 0.5);
+  animation: scan 2s infinite linear alternate;
+}
+
+@keyframes scan {
+  0% { top: 0%; }
+  100% { top: 70%; }
+}
+
+.text-success { color: #10B981; }
+
+.terminal-header .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.animate-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(11, 25, 44, 0.1);
+}
