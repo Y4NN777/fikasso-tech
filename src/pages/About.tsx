@@ -6,7 +6,7 @@ const team = [
     name: 'Cedric KABORE',
     role: 'CEO',
     description: 'Expert in designing and deploying digital solutions for African markets. Leading national-scale infrastructure execution.',
-    image: '/IMG_7585.jpg'
+    image: '/IMG_7588.jpg'
   },
   {
     name: 'Dr. Moise Convolbo',
@@ -24,7 +24,7 @@ const team = [
     name: 'Lessi Coulibaly',
     role: 'Cybersecurity Advisor',
     description: 'Senior Technical Support Engineer at Microsoft. Expert in cybersecurity and secure system architecture.',
-    image: '/IMG_7588.jpg'
+    image: '/IMG_7585.jpg'
   }
 ];
 
@@ -120,8 +120,8 @@ export default function About() {
                   <p className="text-primary font-mono text-sm uppercase tracking-wide mb-4">{member.role}</p>
                   
                   {/* Subtle hover effect to reveal more details or socials */}
-                  <div className="absolute inset-x-0 bottom-0 p-4 bg-surface-alt transform translate-y-full group-hover:translate-y-0 transition-transform">
-                    <p className="text-xs text-muted mb-2 line-clamp-2">{member.description}</p>
+                  <div className="absolute inset-x-0 bottom-0 p-6 bg-surface/95 backdrop-blur-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 border-t border-primary/20">
+                    <p className="text-sm text-main leading-relaxed">{member.description}</p>
                   </div>
                 </div>
               ))}
