@@ -51,7 +51,7 @@ export default function Footer() {
             </li>
             <li className="flex gap-3 text-muted mt-4">
               <Mail size={18} className="text-primary flex-shrink-0" />
-              <span className="text-sm">contact@fikassotech.com</span>
+              <span className="text-sm">cedric@fikassotech.com</span>
             </li>
           </ul>
         </div>

@@ -57,7 +57,7 @@ export default function Solutions() {
   return (
     <div className="solutions-page">
       <section className="page-header bg-base border-b border-surface-alt pb-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5" />
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-30" />
         <div className="container text-center max-w-4xl pt-24 relative z-10">
           <FadeIn direction="down">
             <span className="badge bg-surface-alt text-accent font-mono text-sm px-4 py-1 rounded-full border border-surface mb-6 inline-block shadow-sm">

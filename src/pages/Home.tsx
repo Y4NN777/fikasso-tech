@@ -33,7 +33,7 @@ export default function Home() {
     <div className="home-page">
       {/* 🚀 HERO SECTION */}
       <section className="hero-section min-h-screen flex items-center justify-center pt-20 pb-12 relative overflow-hidden">
-        <div className="hero-bg-pattern opacity-10 absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-repeat" />
+        <div className="hero-bg-pattern opacity-30 absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-repeat" />
         
         <div className="container relative z-10 text-center max-w-4xl">
           <FadeIn direction="up">
