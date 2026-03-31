@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0a0f1a"/>
+  <rect x="8" y="8" width="48" height="48" rx="8" fill="none" stroke="#1e90ff" stroke-width="2" opacity="0.3"/>
+  <!-- F letter stylized -->
+  <path d="M18 16 L42 16 L42 22 L26 22 L26 30 L38 30 L38 36 L26 36 L26 48 L18 48 Z" fill="#a3e635"/>
+  <!-- Circuit dots -->
+  <circle cx="48" cy="16" r="3" fill="#1e90ff"/>
+  <circle cx="48" cy="32" r="3" fill="#1e90ff"/>
+  <circle cx="48" cy="48" r="3" fill="#1e90ff"/>
+  <!-- Circuit lines -->
+  <line x1="42" y1="16" x2="45" y2="16" stroke="#1e90ff" stroke-width="1.5"/>
+  <line x1="38" y1="32" x2="45" y2="32" stroke="#1e90ff" stroke-width="1.5" opacity="0.6"/>
+  <line x1="26" y1="48" x2="45" y2="48" stroke="#1e90ff" stroke-width="1.5" opacity="0.4"/>
+</svg>
